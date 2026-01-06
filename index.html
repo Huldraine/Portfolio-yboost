@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Portfolio de Benoit Eberhard - Développeur en formation, passionné par la programmation et les nouvelles technologies.">
+	<title>Benoit Eberhard - Développeur Web</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- Header avec navigation -->
+	<header class="header">
+		<div class="container">
+			<div class="logo">Benoit Eberhard</div>
+			<nav class="nav">
+				<a href="#about" class="nav-link">À propos</a>
+				<a href="#skills" class="nav-link">Compétences</a>
+				<a href="#projects" class="nav-link">Projets</a>
+				<a href="#contact" class="nav-link">Contact</a>
+				<a href="#documentation" class="nav-link">Documentation</a>
+			</nav>
+			<button class="theme-toggle" id="themeToggle" aria-label="Changer de thème">
+				<span class="theme-icon">🌙</span>
+			</button>
+		</div>
+	</header>
+
+	<!-- Section Hero -->
+	<section class="hero" id="hero">
+		<div class="container">
+			<div class="hero-content fade-in">
+				<h1 class="hero-title">Bienvenue sur mon portfolio</h1>
+				<p class="hero-subtitle">Développeur en Formation | Passionné par la Programmation</p>
+				<div class="hero-stats">
+					<div class="stat-item">
+						<span class="stat-number" id="visitCounter">0</span>
+						<span class="stat-label">Visites</span>
+					</div>
+				</div>
+				<a href="#projects" class="btn btn-primary">Voir mes projets</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section À propos -->
+	<section class="section" id="about">
+		<div class="container">
+			<h2 class="section-title slide-in-left">À propos</h2>
+			<div class="about-content slide-in-right">
+				<div class="about-text">
+					<p>Passionné par le développement et les nouvelles technologies, je suis actuellement en formation et j'apprends plusieurs langages de programmation.</p>
+					<p>Mon objectif est de développer mes compétences techniques et de créer des projets concrets pour progresser dans le développement logiciel.</p>
+				</div>
+				<div class="about-image">
+					<div class="profile-card">
+						<div class="profile-avatar">👨‍💻</div>
+						<div class="profile-info">
+							<h3>Benoit Eberhard</h3>
+							<p class="profile-role">Développeur en Formation</p>
+							<p class="profile-description">En apprentissage constant et motivé à progresser dans le développement logiciel</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section Compétences -->
+	<section class="section section-alt" id="skills">
+		<div class="container">
+			<h2 class="section-title slide-in-left">Compétences Techniques</h2>
+			<div class="skills-intro slide-in-right">
+				<p>Langages de programmation que j'apprends et développe actuellement</p>
+			</div>
+
+			<div class="skills-grid">
+				<div class="skill-card fade-in" style="animation-delay: 0.1s">
+					<div class="skill-header">
+						<span class="skill-icon">🎨</span>
+						<h3>HTML / CSS</h3>
+					</div>
+					<div class="skill-level-badge">
+						<span class="level-text">Niveau : Débutant</span>
+					</div>
+					<p class="skill-description">
+						Apprentissage de la création de pages web et de la mise en forme avec CSS pour des interfaces simples et responsives.
+					</p>
+					<div class="skill-tags">
+						<span class="skill-tag">Structure HTML</span>
+						<span class="skill-tag">Mise en page</span>
+						<span class="skill-tag">Flexbox</span>
+						<span class="skill-tag">Responsive</span>
+					</div>
+				</div>
+
+				<div class="skill-card fade-in" style="animation-delay: 0.15s">
+					<div class="skill-header">
+						<span class="skill-icon">⚡</span>
+						<h3>JavaScript</h3>
+					</div>
+					<div class="skill-level-badge">
+						<span class="level-text">Niveau : Débutant</span>
+					</div>
+					<p class="skill-description">
+						Découverte de la programmation côté client, manipulation du DOM et création d'interactions dynamiques sur des pages web.
+					</p>
+					<div class="skill-tags">
+						<span class="skill-tag">Variables</span>
+						<span class="skill-tag">Fonctions</span>
+						<span class="skill-tag">DOM</span>
+						<span class="skill-tag">Événements</span>
+					</div>
+				</div>
+
+				<div class="skill-card fade-in" style="animation-delay: 0.2s">
+					<div class="skill-header">
+						<span class="skill-icon">🐍</span>
+						<h3>Python</h3>
+					</div>
+					<div class="skill-level-badge">
+						<span class="level-text">Niveau : Débutant</span>
+					</div>
+					<p class="skill-description">
+						Initiation à Python pour comprendre les concepts de base de la programmation et réaliser des scripts simples.
+					</p>
+					<div class="skill-tags">
+						<span class="skill-tag">Syntaxe</span>
+						<span class="skill-tag">Conditions</span>
+						<span class="skill-tag">Boucles</span>
+						<span class="skill-tag">Listes</span>
+					</div>
+				</div>
+
+				<div class="skill-card fade-in" style="animation-delay: 0.25s">
+					<div class="skill-header">
+						<span class="skill-icon">🔷</span>
+						<h3>C</h3>
+					</div>
+					<div class="skill-level-badge">
+						<span class="level-text">Niveau : Débutant</span>
+					</div>
+					<p class="skill-description">
+						Apprentissage des fondamentaux de la programmation bas niveau, gestion de la mémoire et structures de données.
+					</p>
+					<div class="skill-tags">
+						<span class="skill-tag">Pointeurs</span>
+						<span class="skill-tag">Tableaux</span>
+						<span class="skill-tag">Structures</span>
+						<span class="skill-tag">Compilation</span>
+					</div>
+				</div>
+
+				<!-- Java (POO) -->
+				<div class="skill-card fade-in" style="animation-delay: 0.3s">
+					<div class="skill-header">
+						<span class="skill-icon">☕</span>
+						<h3>Java</h3>
+					</div>
+					<div class="skill-level-badge">
+						<span class="level-text">Niveau : Débutant</span>
+					</div>
+					<p class="skill-description">
+						Découverte de la programmation orientée objet avec Java, utilisation des classes et interfaces
+						pour structurer le code et créer des applications robustes.
+					</p>
+					<div class="skill-tags">
+						<span class="skill-tag">POO</span>
+						<span class="skill-tag">Classes</span>
+						<span class="skill-tag">Interfaces</span>
+						<span class="skill-tag">JVM</span>
+					</div>
+				</div>
+
+				<div class="skill-card fade-in" style="animation-delay: 0.35s">
+					<div class="skill-header">
+						<span class="skill-icon">🎮</span>
+						<h3>C#</h3>
+					</div>
+					<div class="skill-level-badge">
+						<span class="level-text">Niveau : Débutant</span>
+					</div>
+					<p class="skill-description">
+						Initiation au développement avec C# et .NET, compréhension des concepts de base de l'écosystème Microsoft.
+					</p>
+					<div class="skill-tags">
+						<span class="skill-tag">Syntaxe</span>
+						<span class="skill-tag">.NET</span>
+						<span class="skill-tag">Types</span>
+						<span class="skill-tag">Méthodes</span>
+					</div>
+				</div>
+
+				<div class="skill-card fade-in" style="animation-delay: 0.4s">
+					<div class="skill-header">
+						<span class="skill-icon">🔵</span>
+						<h3>Go (Golang)</h3>
+					</div>
+					<div class="skill-level-badge">
+						<span class="level-text">Niveau : Débutant</span>
+					</div>
+					<p class="skill-description">
+						Découverte du langage Go, sa syntaxe simple et ses concepts de concurrence pour des applications performantes.
+					</p>
+					<div class="skill-tags">
+						<span class="skill-tag">Goroutines</span>
+						<span class="skill-tag">Packages</span>
+						<span class="skill-tag">Concurrence</span>
+						<span class="skill-tag">Interfaces</span>
+					</div>
+				</div>
+
+				<!-- Blender -->
+				<div class="skill-card fade-in" style="animation-delay: 0.45s">
+					<div class="skill-header">
+						<span class="skill-icon">🌀</span>
+						<h3>Blender</h3>
+					</div>
+					<div class="skill-level-badge">
+						<span class="level-text">Niveau : Débutant</span>
+					</div>
+					<p class="skill-description">
+						Initiation à Blender pour la modélisation 3D, la création de scènes simples
+						et l’exploration de l’animation et du rendu.
+					</p>
+					<div class="skill-tags">
+						<span class="skill-tag">Modélisation 3D</span>
+						<span class="skill-tag">Texturing</span>
+						<span class="skill-tag">Rendu</span>
+						<span class="skill-tag">Animation</span>
+					</div>
+				</div>
+			</div>
+
+			<!-- Section Points Forts / Soft Skills -->
+			<div class="soft-skills slide-in-up">
+				<h3 class="soft-skills-title">💡 Points Forts</h3>
+				<div class="soft-skills-grid">
+					<div class="soft-skill-item">
+						<span class="soft-skill-icon">🎯</span>
+						<span class="soft-skill-name">Curiosité et motivation</span>
+					</div>
+					<div class="soft-skill-item">
+						<span class="soft-skill-icon">⚡</span>
+						<span class="soft-skill-name">Capacité à apprendre rapidement</span>
+					</div>
+					<div class="soft-skill-item">
+						<span class="soft-skill-icon">💬</span>
+						<span class="soft-skill-name">Bonne communication</span>
+					</div>
+					<div class="soft-skill-item">
+						<span class="soft-skill-icon">🤝</span>
+						<span class="soft-skill-name">Travail en équipe</span>
+					</div>
+					<div class="soft-skill-item">
+						<span class="soft-skill-icon">🔍</span>
+						<span class="soft-skill-name">Résolution de problèmes</span>
+					</div>
+					<div class="soft-skill-item">
+						<span class="soft-skill-icon">📚</span>
+						<span class="soft-skill-name">Apprentissage autonome</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section Projets avec Carrousel et Filtres -->
+	<section class="section" id="projects">
+		<div class="container">
+			<h2 class="section-title slide-in-left">Mes Projets</h2>
+
+			<!-- Filtres de projets -->
+			<div class="project-filters slide-in-right">
+				<button class="filter-btn active" data-filter="all">Tous</button>
+				<button class="filter-btn" data-filter="termine">Terminés</button>
+				<button class="filter-btn" data-filter="encours">En cours</button>
+			</div>
+
+			<!-- Carrousel de projets -->
+			<div class="carousel-container">
+				<button class="carousel-btn carousel-prev" aria-label="Projet précédent">❮</button>
+				<div class="projects-carousel">
+					<!-- Projet 1 : power4 -->
+					<div class="project-card" data-category="termine">
+						<div class="project-image">🎮</div>
+						<div class="project-content">
+							<div class="project-header">
+								<h3 class="project-title">power4</h3>
+								<span class="project-status status-complete">Terminé</span>
+							</div>
+							<p class="project-description">
+								Jeu de Puissance 4 développé en C permettant à deux joueurs de s'affronter dans une partie classique.
+								Gestion de la logique de jeu, détection des victoires et interface en ligne de commande.
+							</p>
+							<div class="project-tags">
+								<span class="tag">C</span>
+								<span class="tag">Algorithmes</span>
+								<span class="tag">Logique de jeu</span>
+							</div>
+							<a href="#" class="project-link">Voir le projet →</a>
+						</div>
+					</div>
+
+					<!-- Projet 2 : projet-red -->
+					<div class="project-card" data-category="termine">
+						<div class="project-image">🔴</div>
+						<div class="project-content">
+							<div class="project-header">
+								<h3 class="project-title">projet-red</h3>
+								<span class="project-status status-complete">Terminé</span>
+							</div>
+							<p class="project-description">
+								Projet de développement logiciel réalisé dans un contexte académique.
+								Mise en pratique des concepts de programmation et collaboration en équipe pour livrer une solution fonctionnelle.
+							</p>
+							<div class="project-tags">
+								<span class="tag">Python</span>
+								<span class="tag">Travail d'équipe</span>
+								<span class="tag">Gestion de projet</span>
+							</div>
+							<a href="#" class="project-link">Voir le projet →</a>
+						</div>
+					</div>
+
+					<!-- Projet 3 : POO - Micromaniac (Java) -->
+					<div class="project-card" data-category="termine">
+						<div class="project-image">🕹️</div>
+						<div class="project-content">
+							<div class="project-header">
+								<h3 class="project-title">POO - Micromaniac</h3>
+								<span class="project-status status-complete">Terminé</span>
+							</div>
+							<p class="project-description">
+								Projet orienté objet en Java mettant en pratique les concepts de classes, héritage et
+								encapsulation dans un jeu de type gestion ou arcade « Micromaniac ».
+							</p>
+							<div class="project-tags">
+								<span class="tag">Java</span>
+								<span class="tag">POO</span>
+								<span class="tag">Architecture</span>
+							</div>
+							<a href="#" class="project-link">Voir le projet →</a>
+						</div>
+					</div>
+
+					<!-- Projet 4 : Ydays-Golem -->
+					<div class="project-card" data-category="encours">
+						<div class="project-image">🤖</div>
+						<div class="project-content">
+							<div class="project-header">
+								<h3 class="project-title">Ydays-Golem</h3>
+								<span class="project-status status-ongoing">En cours</span>
+							</div>
+							<p class="project-description">
+								Projet annuel Ydays visant à créer un système automatisé.
+								Développement en cours avec intégration de différentes technologies et apprentissage de nouvelles pratiques de développement.
+							</p>
+							<div class="project-tags">
+								<span class="tag">Go</span>
+								<span class="tag">Automatisation</span>
+								<span class="tag">API</span>
+								<span class="tag">En développement</span>
+							</div>
+							<a href="#" class="project-link">Voir le projet →</a>
+						</div>
+					</div>
+
+					<!-- Projet 5 : Groupie Tracker -->
+					<div class="project-card" data-category="encours">
+						<div class="project-image">🎵</div>
+						<div class="project-content">
+							<div class="project-header">
+								<h3 class="project-title">Groupie Tracker</h3>
+								<span class="project-status status-ongoing">En cours</span>
+							</div>
+							<p class="project-description">
+								Projet « Groupie Tracker » permettant de récupérer et d’afficher des données d’artistes
+								(via API) avec un affichage interactif et des filtres.
+							</p>
+							<div class="project-tags">
+								<span class="tag">Go</span>
+								<span class="tag">API</span>
+								<span class="tag">JSON</span>
+								<span class="tag">Front‑end</span>
+							</div>
+							<a href="#" class="project-link">Voir le projet →</a>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-btn carousel-next" aria-label="Projet suivant">❯</button>
+			</div>
+
+			<!-- Indicateurs du carrousel -->
+			<div class="carousel-indicators" id="carouselIndicators"></div>
+		</div>
+	</section>
+
+	<!-- Section Contact avec Formulaire -->
+	<section class="section section-alt" id="contact">
+		<div class="container">
+			<h2 class="section-title slide-in-left">Contact</h2>
+			<div class="contact-content">
+				<div class="contact-info slide-in-left">
+					<h3>Travaillons ensemble</h3>
+					<p>Une question, un projet ou simplement envie d'échanger ? N'hésitez pas à me contacter !</p>
+					<div class="contact-details">
+						<div class="contact-item">
+							<span class="contact-icon">📧</span>
+							<span>
+								<a href="mailto:benoit.eberhard@gmail.com">benoit.eberhard@gmail.com</a>
+							</span>
+						</div>
+						<div class="contact-item">
+							<span class="contact-icon">💼</span>
+							<span>Disponible pour des opportunités</span>
+						</div>
+					</div>
+				</div>
+
+				<form class="contact-form slide-in-right" id="contactForm">
+					<div class="form-group">
+						<label for="name">Nom</label>
+						<input type="text" id="name" name="name" required>
+						<span class="error-message" id="nameError"></span>
+					</div>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" required>
+						<span class="error-message" id="emailError"></span>
+					</div>
+					<div class="form-group">
+						<label for="message">Message</label>
+						<textarea id="message" name="message" rows="5" required></textarea>
+						<span class="error-message" id="messageError"></span>
+					</div>
+					<button type="submit" class="btn btn-primary">Envoyer</button>
+					<div class="form-success" id="formSuccess">Message envoyé avec succès !</div>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section Documentation -->
+	<section class="section" id="documentation">
+		<div class="container">
+			<h2 class="section-title slide-in-left">Documentation</h2>
+			<div class="documentation-content slide-in-right">
+				<div class="doc-section">
+					<h3>À propos de ce site</h3>
+					<p>
+						Ce portfolio présente mon parcours en développement, mes compétences actuelles et mes projets.
+						Conçu pour être simple et efficace, il met en valeur mon apprentissage progressif des différents langages de programmation.
+					</p>
+				</div>
+
+				<div class="doc-section">
+					<h3>Fonctionnalités</h3>
+					<ul class="doc-list">
+						<li><strong>Thème clair/sombre :</strong> Changez l'apparence du site selon vos préférences</li>
+						<li><strong>Compteur de visites :</strong> Suivi automatique du nombre de visites</li>
+						<li><strong>Section Compétences :</strong> Présentation professionnelle des compétences (toutes en niveau débutant) avec descriptions et tags</li>
+						<li><strong>Carrousel de projets :</strong> Navigation fluide entre les différents projets</li>
+						<li><strong>Filtrage de projets :</strong> Filtrez par statut (Tous, Terminés, En cours)</li>
+						<li><strong>Formulaire de contact :</strong> Validation en temps réel des champs</li>
+						<li><strong>Animations au scroll :</strong> Animations subtiles lors du défilement</li>
+						<li><strong>Design responsive :</strong> Adapté à tous les écrans</li>
+					</ul>
+				</div>
+
+				<div class="doc-section">
+					<h3>Technologies utilisées</h3>
+					<div class="tech-stack">
+						<span class="tech-badge">HTML5</span>
+						<span class="tech-badge">CSS3</span>
+						<span class="tech-badge">JavaScript</span>
+						<span class="tech-badge">LocalStorage</span>
+						<span class="tech-badge">Intersection Observer API</span>
+					</div>
+				</div>
+
+				<div class="doc-section">
+					<h3>Structure du projet</h3>
+					<p>
+						Le site est construit avec du HTML, CSS et JavaScript vanilla, sans framework externe.
+						Cette approche permet de comprendre les fondamentaux du développement web tout en créant un portfolio moderne et fonctionnel.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<p>© 2025 Benoit Eberhard. Tous droits réservés.</p>
+			<p class="footer-note">Fait avec passion et apprentissage continu</p>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
